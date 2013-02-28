@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>플러그인 개발</title>
+
+    <link rel="stylesheet" href="08.css" type="text/css" />
+    <link rel="stylesheet" href="ui-themes/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" />
+
+    <script src="jquery.js"></script>
+    <script src="jquery-ui-1.8.11.custom.min.js"></script>
+    <script src="listings/8.16.js"></script>
+    <!--<script src="complete.js"></script>-->
+  </head>
+  <body>
+    <div id="container">
+      <h1>재고</h1>
+      <table id="inventory">
+        <thead>
+          <tr class="one">
+            <th>물품</th>
+            <th>수량</th>
+            <th>가격</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr class="two" id="sum">
+            <td>합계</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr id="average">
+            <td>평균</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td><a href="spam.html" data-tooltip-text="맛있고 영양가 높은!">스팸</a></td>
+            <td>4</td>
+            <td>2.50</td>
+          </tr>
+          <tr>
+            <td><a href="egg.html" data-tooltip-text="농장 직송 또는 스크램블!">달걀</a></td>
+            <td>12</td>
+            <td>4.32</td>
+          </tr>
+          <tr>
+            <td><a href="gourmet-spam.html" data-tooltip-text="요리사 헤르만의 요리법.">맛나 스팸</a></td>
+            <td>14</td>
+            <td>7.89</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
